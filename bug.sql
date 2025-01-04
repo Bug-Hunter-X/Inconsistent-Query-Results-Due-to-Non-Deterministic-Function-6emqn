@@ -1,0 +1,1 @@
+The SQL query uses a function that is not deterministic. A non-deterministic function can return different results even when called with the same input parameters. This can lead to unpredictable results and make it difficult to debug the query.  For example, using CURRENT_TIMESTAMP in a WHERE clause can cause the query to return different results each time it's executed.

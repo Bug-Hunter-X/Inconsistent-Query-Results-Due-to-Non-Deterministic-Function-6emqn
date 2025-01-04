@@ -1,0 +1,1 @@
+This repository contains examples of an SQL query that produces inconsistent results because it uses a non-deterministic function (CURRENT_TIMESTAMP in the WHERE clause).  The `bug.sql` file shows the problematic query, while `bugSolution.sql` demonstrates how to correct the issue.
